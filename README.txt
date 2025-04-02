@@ -1,14 +1,37 @@
-=========--------==========--------==========--------========== TAREFA 6.2 ==========--------==========--------==========--------=========
+## Projeto de Controle Multifuncional com Joystick
 
-Fiz apenas o que estava pedindo, tentei deixar o mais bonito possivel o display  e fazer algo mais elaborado, mas não consegui pois 
-tive pouco tempo para realizar a tarefa (tive que fazer até quarta, pois irei fazer uma cirurgia nos olhos na quinta, ai não 
-poderei utilizar telas durantes alguns dias).
+Desenvolvido como parte de um projeto de capacitação em sistemas embarcados, este trabalho utiliza a Raspberry Pi Pico para criar um sistema interativo com múltiplas funcionalidades controladas por joystick.
 
-Tentei modularizar o programa em varios arquivos .h, como buzzer.h, joystick.h, led.h, etc. Porém ao fazer isso, por algum motivo o
-programa parou de compilar. Ai deixei as funções em um unico arquivo .h, chamado "funcoes.h", nele eu tentei organizar o maximo possivel
-para facilitar a leitura e correção do código.
+Funcionalidades Principais:
 
+🎮 Controle de LEDs via Joystick – Ajuste de intensidade luminosa conforme o movimento do joystick
 
-Feito por Eric Natan B. Torres, do NAT 3. 
+💡 PWM para Dimmer de LEDs – Regulação manual do brilho em LEDs individuais
 
-==========--------==========--------==========--------==========--------==========--------===========--------==========--------=========
+🎵 Gerador de Tons com Buzzer – Reprodução de melodias simples através de um buzzer piezoelétrico
+
+📟 Interface no Display OLED – Menu interativo para seleção de modos de operação
+
+Tecnologias Utilizadas:
+
+- Raspberry Pi Pico (microcontrolador RP2040)
+
+- Display OLED SSD1306 (comunicação I2C)
+
+- ADC para leitura analógica do joystick
+
+- PWM para controle preciso de LEDs e buzzer
+
+- Estruturas de menu para navegação intuitiva
+
+Ideal para aprendizado de:
+
+- Controle de periféricos com GPIO
+
+- Leitura de entradas analógicas
+
+- Geração de sinais PWM
+
+- Interface homem-máquina simples
+
+(Projeto desenvolvido para estudos em sistemas embarcados - BitDogLab/Embarcatech)
